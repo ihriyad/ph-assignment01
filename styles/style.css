@@ -55,9 +55,19 @@ body{
     align-items: center;
     
 }
-
+.notes h1, p{
+    text-align: center;
+    /* justify-content: center; */
+}
+.cards{
+    display: flex;
+    /* height: 300px;
+       width: 1360px; */
+}
     
-
+.notes-info{
+    border: 2px black solid;
+}
 .two .banner-info{
     width: 1360px;
     height: 379px;
@@ -65,8 +75,9 @@ body{
 .three{
     border: 2px solid rgb(15, 25, 207);
 }
-.four{
+.parent-brain{
     border: 2px solid rgb(106, 9, 224);
+    display: flex;
 }
 .five{
     border: 2px solid rgb(196, 206, 4);
