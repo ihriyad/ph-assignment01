@@ -78,10 +78,45 @@ body{
 .parent-brain{
     border: 2px solid rgb(106, 9, 224);
     display: flex;
+    padding: 120px;
 }
-.five{
+.early-access{
     border: 2px solid rgb(196, 206, 4);
+    text-align: center;
+    padding: 82px 160px 80px 160px;
+    /* background-color: red; */
+    
 }
-.six{
+
+.access-info{
+    padding: 80px 0 80px 0;
+    background-color: bisque;
+    padding: 120px 40px 120px 40px;
+    background-color: aquamarine;
+}
+footer{
+    /* display: flex; */
     border: 2px solid rgb(176, 12, 31);
+    background: var(--Style, rgba(0, 25, 49, 1));
+
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 120px 120px 164px;
+    height: 92px; 
+}
+.social ul{
+    list-style: none;
+    display: flex;
+    width: 113px;
+    height: 28px;
+}
+.social h3{
+    color: rgba(255, 255, 255, 1);
+}
+footer p{
+    color: rgba(255, 255, 255, 1);
+
 }
