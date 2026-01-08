@@ -5,9 +5,62 @@ body{
 }
 .one{
     border: 2px solid red;
+
 }
-.two{
+.one nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px 16px 120px;
+    height: 92px;   
+}
+
+.one nav img{
+    width: 139px;
+    height: 60px;
+}
+
+.one nav ul{
+    /* text-decoration: none; */
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    
+}
+.one nav a{
+    text-decoration: none;  
+    
+}
+
+.one .btn{
+    color: rgba(255, 255, 255, 1);
+    background-color: #30B868;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    border: none;
+    border-radius: 5px;    
+}
+
+
+
+.banner{
     border: 2px solid rgb(17, 194, 70);
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    height: 674px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+    
+
+.two .banner-info{
+    width: 1360px;
+    height: 379px;
 }
 .three{
     border: 2px solid rgb(15, 25, 207);
