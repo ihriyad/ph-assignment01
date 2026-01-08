@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.one{
+    border: 2px solid red;
+}
+.two{
+    border: 2px solid rgb(17, 194, 70);
+}
+.three{
+    border: 2px solid rgb(15, 25, 207);
+}
+.four{
+    border: 2px solid rgb(106, 9, 224);
+}
+.five{
+    border: 2px solid rgb(196, 206, 4);
+}
+.six{
+    border: 2px solid rgb(176, 12, 31);
+}
