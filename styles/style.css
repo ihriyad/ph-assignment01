@@ -1,12 +1,14 @@
 * {
     margin: 0;
-padding: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    
-    font-family: 'Inter', sans-serif;
+    max-width: 1600px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
@@ -15,8 +17,8 @@ body{
 
 .one nav{
     margin: auto;
-    max-width: 1140px;
-    width: 90%;
+    max-width: 1600px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +29,7 @@ body{
 .one nav img{
     width: 139px;
     height: 60px;
+    /* margin-right: 60px; */
 }
 
 .one nav ul{
@@ -165,10 +168,13 @@ body{
     
 }
 .content{
-    max-width: 700px;
+    max-width: 1600px;
     text-align: left;
     /* padding-top: 10px; */
-    margin-left: 60px;
+    /* margin-left: 60px; */
+    margin-top: 102px;
+    margin-left: 50px;
+    
 }
 
 .first{
@@ -194,7 +200,10 @@ body{
   margin-top: 40px;
 }
 
-
+.content li{
+  white-space: nowrap;
+  
+}
 
 
 
@@ -228,10 +237,14 @@ body{
 .access-info img{
   vertical-align: middle;
 }
+
+/* footer starts here  */
 footer{
     /* display: flex; */
     /* border: 2px solid rgb(176, 12, 31); */
-    background: var(--Style, rgba(0, 25, 49, 1));
+    /* background:var(--Style,  rgba(0, 25, 49, 1)); */
+    background: #001931;
+    height: 348px;
 
 }
 .last{
@@ -259,6 +272,12 @@ footer p{
     text-align: center;
 
 }
+
+footer hr{
+  width: 80%;
+  margin: 20px auto;
+  opacity: 0.5;
+}
 footer a{
   /* color: #ffffff; */
   /* gap: 10px; */
@@ -266,3 +285,5 @@ footer a{
   background-color: #e5e7eb;
   padding: 2px;
 }
+
+/* The end */
