@@ -109,28 +109,37 @@ body{
   margin-right: 15px;
 }
 
+/* problems sec starts here  */
+.problems {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.grid {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  padding: 25px;
+  border-radius: 10px;
+  background: #f8fafc;
+}
+/* .card img{
+  background-color: orangered;
+  border-radius: 50%;
+  
+} */
+ .card img{
+  background: rgba(249, 85, 85, 1);
+  border-radius: 50%;
+  padding: 10px;
+ }
 
 
-.notes h1, p{
-    text-align: center;
-    /* justify-content: center; */
-}
-.cards{
-    display: flex;
-    /* height: 300px;
-       width: 1360px; */
-}
-    
-.notes-info{
-    border: 2px black solid;
-}
-.two .banner-info{
-    width: 1360px;
-    height: 379px;
-}
-.three{
-    border: 2px solid rgb(15, 25, 207);
-}
+
 .parent-brain{
     border: 2px solid rgb(106, 9, 224);
     display: flex;
