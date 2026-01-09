@@ -57,11 +57,20 @@ body{
 .btn-primary {
   background: #22c55e;
   color: white;
+  border: none;
 }
 
 .btn-outline {
   border: 2px solid #ffffff;
   color: white;
+}
+
+.btn-last{
+  font-size: 15px;
+  background: #22c55e;
+  color: white;
+  border: none;
+  margin-bottom: 10px;
 }
 
 
@@ -83,14 +92,17 @@ body{
 }
 
 .badge {
-  background: #22c55e;
+  color: #22C55E;
+  background: #ffffff;
   padding: 6px 14px;
   border-radius: 20px;
   font-size: 14px;
   display: inline-block;
   margin-bottom: 20px;
 }
-
+.hero-buttons img{
+  vertical-align: middle;
+}
 .hero h1 {
   font-size: 48px;
   margin-bottom: 15px;
@@ -111,7 +123,7 @@ body{
 
 /* problems sec starts here  */
 .problems {
-  padding: 80px 10%;
+  padding: 80px 120px 120px 120px;
   text-align: center;
 }
 
@@ -143,7 +155,7 @@ body{
 .Solution{
     display: flex;
     justify-content: space-between;
-    padding: 120px;
+    padding:0 120px 120px 120px;
     text-align: left;
 }
 .brain-info{ 
@@ -155,7 +167,7 @@ body{
 .content{
     max-width: 700px;
     text-align: left;
-    padding-top: 120px;
+    /* padding-top: 10px; */
     margin-left: 60px;
 }
 
@@ -189,22 +201,36 @@ body{
 
 
 .early-access{
-    border: 2px solid rgb(196, 206, 4);
+    /* border: 2px solid rgb(196, 206, 4); */
     text-align: center;
-    padding: 82px 160px 80px 160px;
+    /* padding: 120px 160px 80px 160px; */
     /* background-color: red; */
+    margin: 0 120px 120px 120px;
+    
     
 }
 
 .access-info{
-    padding: 80px 0 80px 0;
-    background-color: bisque;
+    /* padding: 80px 0 80px 0; */
+    /* background-color: bisque; */
     padding: 120px 40px 120px 40px;
-    background-color: aquamarine;
+    background-color: #f7f7f2;
+    border-radius: 10px;
+}
+
+.access-info h1{
+  padding-bottom: 16px;
+}
+
+.access-info p{
+  padding-bottom: 25px;
+}
+.access-info img{
+  vertical-align: middle;
 }
 footer{
     /* display: flex; */
-    border: 2px solid rgb(176, 12, 31);
+    /* border: 2px solid rgb(176, 12, 31); */
     background: var(--Style, rgba(0, 25, 49, 1));
 
 }
@@ -216,15 +242,27 @@ footer{
     height: 92px; 
 }
 .social ul{
+    padding-top: 10px;
     list-style: none;
     display: flex;
     width: 113px;
     height: 28px;
+    gap: 17px;
 }
 .social h3{
     color: rgba(255, 255, 255, 1);
 }
 footer p{
     color: rgba(255, 255, 255, 1);
+    padding-top: 15px;
+    padding-bottom: 30px;
+    text-align: center;
 
+}
+footer a{
+  /* color: #ffffff; */
+  /* gap: 10px; */
+  border-radius: 50%;
+  background-color: #e5e7eb;
+  padding: 2px;
 }
