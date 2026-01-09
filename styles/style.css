@@ -11,10 +11,6 @@ body{
     font-style: normal;
 }
 
-
-/*nav starts here*/
-
-
 .one nav{
     margin: auto;
     max-width: 1600px;
@@ -47,8 +43,6 @@ body{
     
 }
 
-
-/* buttons here */
 .btn {
   padding: 12px 18px;
   border-radius: 8px;
@@ -78,7 +72,7 @@ body{
 
 
 
-/* hero part here */
+/* hero */
 .hero{
     background-image: url(../assets/hero-bg.png);
     /* background-position: center; */
@@ -93,16 +87,10 @@ body{
   padding: 154px 120px 134px;
   /* align-items: center; */
 }
-
-.badge {
-  color: #22C55E;
-  background: #ffffff;
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 14px;
-  display: inline-block;
-  margin-bottom: 20px;
+.dot{
+  vertical-align: middle;
 }
+
 .hero-buttons img{
   vertical-align: middle;
 }
@@ -124,7 +112,7 @@ body{
   margin-right: 15px;
 }
 
-/* problems sec starts here  */
+/* 3rd sec starts here  */
 .problems {
   padding: 80px 120px 120px 120px;
   text-align: center;
@@ -153,9 +141,10 @@ body{
   padding: 10px;
  }
 
-/* solution part start here  */
+/* sec 4  */
 
 .Solution{
+  max-width: 1600px;
     display: flex;
     justify-content: space-between;
     padding:0 120px 120px 120px;
@@ -206,7 +195,7 @@ body{
 }
 
 
-/* bonus section  */
+/* bonus sec  */
 
 
 .early-access{
@@ -215,6 +204,7 @@ body{
     /* padding: 120px 160px 80px 160px; */
     /* background-color: red; */
     margin: 0 120px 120px 120px;
+    max-width: 1600px;
     
     
 }
@@ -238,13 +228,14 @@ body{
   vertical-align: middle;
 }
 
-/* footer starts here  */
+/* footer   */
 footer{
     /* display: flex; */
     /* border: 2px solid rgb(176, 12, 31); */
     /* background:var(--Style,  rgba(0, 25, 49, 1)); */
     background: #001931;
     height: 348px;
+    max-width: 1600px;
 
 }
 .last{
