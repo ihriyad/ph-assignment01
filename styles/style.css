@@ -138,11 +138,11 @@ body{
   padding: 10px;
  }
 
+/* solution part start here  */
 
-
-.parent-brain{
-    border: 2px solid rgb(106, 9, 224);
+.Solution{
     display: flex;
+    justify-content: space-between;
     padding: 120px;
     text-align: left;
 }
@@ -155,7 +155,39 @@ body{
 .content{
     max-width: 700px;
     text-align: left;
+    padding-top: 120px;
+    margin-left: 60px;
 }
+
+.first{
+  color: #22c55e;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.content h1{
+  font-size: 30px;
+  margin-bottom: 16px;
+  
+}
+
+.content ul img {
+  vertical-align: middle;
+  
+  
+}
+.content ul{
+  list-style: none;
+  margin-top: 40px;
+}
+
+
+
+
+
+
+
 .early-access{
     border: 2px solid rgb(196, 206, 4);
     text-align: center;
