@@ -1,13 +1,22 @@
-body{
+* {
     margin: 0;
-    padding: 0;
-    /* box-sizing: border-box; */
+padding: 0;
+    box-sizing: border-box;
 }
-.one{
-    border: 2px solid red;
 
+body{
+    
+    font-family: 'Inter', sans-serif;
 }
+
+
+/*nav starts here*/
+
+
 .one nav{
+    margin: auto;
+    max-width: 1140px;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,32 +38,79 @@ body{
 }
 .one nav a{
     text-decoration: none;  
+    margin-left: 25px;
+    color: #000;
+    font-weight: 500;
     
 }
 
-.one .btn{
-    color: rgba(255, 255, 255, 1);
-    background-color: #30B868;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 19px;
-    border: none;
-    border-radius: 5px;    
+
+/* buttons here */
+.btn {
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: #22c55e;
+  color: white;
+}
+
+.btn-outline {
+  border: 2px solid #ffffff;
+  color: white;
 }
 
 
 
-.banner{
-    border: 2px solid rgb(17, 194, 70);
+/* hero part here */
+.hero{
     background-image: url(../assets/hero-bg.png);
+    /* background-position: center; */
     background-repeat: no-repeat;
     max-width: 1600px;
     height: 674px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    text-align: center;   
 }
+
+
+.hero-content {
+  padding: 154px 120px 134px;
+  /* align-items: center; */
+}
+
+.badge {
+  background: #22c55e;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hero h1 span {
+  color: #22c55e;
+}
+
+.hero p {
+  margin-bottom: 30px;
+  color: #e5e7eb;
+}
+
+.hero-buttons a {
+  margin-right: 15px;
+}
+
+
+
 .notes h1, p{
     text-align: center;
     /* justify-content: center; */
@@ -79,6 +135,17 @@ body{
     border: 2px solid rgb(106, 9, 224);
     display: flex;
     padding: 120px;
+    text-align: left;
+}
+.brain-info{ 
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    
+}
+.content{
+    max-width: 700px;
+    text-align: left;
 }
 .early-access{
     border: 2px solid rgb(196, 206, 4);
