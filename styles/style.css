@@ -206,7 +206,7 @@ body{
 }
 
 
-
+/* bonus section  */
 
 
 .early-access{
@@ -284,6 +284,40 @@ footer a{
   border-radius: 50%;
   background-color: #e5e7eb;
   padding: 2px;
+}
+
+
+/* hover buttons  */
+
+.btn:hover {
+  background-color: #16a34a;
+  color: #020617;
+  /* background-color: white; */
+  box-shadow: 0 10px 25px rgba(34, 197, 94, 0.4);
+}
+
+.btn-outline:hover {
+  background-color: white;
+  color: #020617;
+  border-color: white;
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.3);
+}
+
+.btn-two{
+  color: #22C55E;
+  background: #ffffff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.btn-two:hover {
+  background-color: white;
+  color: #020617;
+  border-color: white;
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.3);
 }
 
 /* The end */
